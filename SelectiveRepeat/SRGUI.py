@@ -894,7 +894,7 @@ button3 = Button(canvas, text = 'Display Flow of Control',command = create_windo
 button3.place(x=580,y=600)
 
 txt1_canvas = canvas.create_text(650,230,text = "(I). Click Start Transmission Button, to transfer data between sender and receiver ",fill='blue',font = ('calibri',20))
-txt2_canvas = canvas.create_text(660,320,text = "(II). Click Start Animation to understand the flow of frames in Stop and wait Protocol",font = ('calibri',20))
+txt2_canvas = canvas.create_text(660,320,text = "(II). Click Start Animation to understand the flow of frames in Selective Repeat Protocol",font = ('calibri',20))
  
 mainloop()
 
