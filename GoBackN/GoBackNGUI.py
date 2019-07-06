@@ -1023,7 +1023,7 @@ button4.place(x=580,y=600)
 txt1_canvas = canvas.create_text(650,150,text = "Follow the following steps",fill="black",font=('calibri',20))
 txt2_canvas = canvas.create_text(600,230,text = "(I) Äctivate Receiver's Site Button, to create connection between sender and receiver ",fill='blue',font = ('calibri',20))
 txt3_canvas = canvas.create_text(480,310,text = "(II) Äctivate Sender's Site Button, to send frames to receiver",fill = 'green',font = ('calibri',20))
-txt4_canvas = canvas.create_text(600,390,text = "(III) Click Start Animation to understand the flow of frames in Stop and wait Protocol",font = ('calibri',20))
+txt4_canvas = canvas.create_text(600,390,text = "(III) Click Start Animation to understand the flow of frames in Go Back N Protocol",font = ('calibri',20))
  
 mainloop()
 
