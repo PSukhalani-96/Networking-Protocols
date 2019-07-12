@@ -7,7 +7,7 @@ Simulation of StopNWait, GoBackN and SelectiveRepeat Protocols
 
 ### For Stop N Wait Protocol
 	$ cd StopNWait
-	$ python3 StopNWaitsender.py
+	$ python3 stopnwaitGUI.py
 	
 The simulation will first run the client-server (Sender-Receiver) Socket Program and log the information of frame sent,
 frame received,frame lost, and timeout in a file. Then StopNWaitGUI fetch the log file and simulate the purpose of Stop 
